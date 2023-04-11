@@ -28,7 +28,6 @@ header{
     width: 110spx;
     height: 20px;
     background-color:#4a4a4a;
-    
     margin-right: 1px ;
     border-radius: 3px;
    
@@ -36,8 +35,6 @@ header{
 .font{
     font-size: 20px;
 }
-
-
 
 .icons-minimize{
     width: 30px;
@@ -86,6 +83,15 @@ footer{
     background-color: #222222;
     position: relative;
    margin-top: 1rem;
+   
+}
+
+.fixed{
+    position: fixed;
+    bottom: o;
+    right: 0;
+    left: 0;
+    z-index: 1;
 }
 .bg-white{
 background-color: white;
@@ -99,7 +105,7 @@ li{
     
 }
 .icons-left, .central-icons{
-    padding: 25px 10px;
+    padding: 16px 10px;
     text-align: center;
     
 }
@@ -109,7 +115,7 @@ li{
 .font{
     font-size: 13px;
 }
-.central-icons{
+div.central-icons{
     padding-left: 15%;
 }
 .right-icons{
