@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+section{
+    width: 80vw;
+    height: 80vh;
+    background-color: azure;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.speaker-view{
+    width: 100px;
+    height: 20px;
+    background-color: gainsboro;
+}
+
+.icons-minimize{
+    width: 20px;
+    height: 20px;
+    
+}
