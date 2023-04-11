@@ -42,3 +42,14 @@ nav ul{
     border-radius: 3px;
 
 }
+.container{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 90vw;
+    height: 50vh;
+    padding: 10%;
+
+    background-color: white;
+    
+}
