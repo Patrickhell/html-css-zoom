@@ -16,14 +16,29 @@ section{
     display: flex;
     flex-direction: row;
 }
+nav ul{
+    list-style: none;
+    position: fixed;
+    display: flex;
+    top: 1%;
+    right: 0;
+
+}
+
 .speaker-view{
     width: 100px;
     height: 20px;
     background-color: gainsboro;
+    margin-right: 10px;
+    border-radius: 3px;
+    padding: 0 6px;
 }
 
 .icons-minimize{
-    width: 20px;
+    width: 30px;
     height: 20px;
-    
+    background-color: gainsboro;
+    padding: 1px 8px;
+    border-radius: 3px;
+
 }
