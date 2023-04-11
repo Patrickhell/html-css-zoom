@@ -15,7 +15,7 @@ header{
     display: flex;
     flex-direction: row;
 }
-nav ul{
+.nav-bar{
     list-style: none;
     position: fixed;
     display: flex;
@@ -24,25 +24,29 @@ nav ul{
 
 }
 
-.speaker-view{
-    width: 100px;
+.Speaker-view{
+    width: 110spx;
     height: 20px;
-    background-color: gainsboro;
-    margin-right: 5px;
+    background-color:#4a4a4a;
+    
+    margin-right: 1px ;
     border-radius: 3px;
-    padding: 0 6px;
+   
 }
+.font{
+    font-size: 20px;
+}
+
+
 
 .icons-minimize{
     width: 30px;
     height: 20px;
-    background-color: gainsboro;
-    padding: 1px 8px;
+    background-color: #4a4a4a;
+    font-size: 15px;
+    padding: 2px 8px;
     border-radius: 3px;
 
-}
-section{
-    padding:5rem;
 }
 
 .container{
@@ -57,7 +61,7 @@ section{
   padding-left: 5px;
   padding-bottom: 0.5rem;
 }
-section div.colona-image{
+ div.colona-image{
   width: calc0(100% / 6);
   position: relative;
  
@@ -70,8 +74,8 @@ section div.colona-image{
 
 .audio{
     position: absolute;
-    top: 22%;
-    left: 5.5%;
+    top: 80%;
+    left:0;
 font-size: 11px;
 
 }
@@ -80,5 +84,51 @@ footer{
     width: 100vw;
     height: 10vh;
     background-color: #222222;
+    position: relative;
+   margin-top: 1rem;
+}
+.bg-white{
+background-color: white;
+}
+ul{
+    list-style: none;
+}
+li{
+    font-size: 20px;
+    padding-right: 5px;
+    
+}
+.icons-left, .central-icons{
+    padding: 25px 10px;
+    text-align: center;
+    
+}
+.margin-left{
+    margin-left: 15px;
+}
+.font{
+    font-size: 13px;
+}
+.central-icons{
+    padding-left: 15%;
+}
+.right-icons{
+    width: 8vw;
+    height: 10vh;
+    background-color: #4a4a4a;
+    position: absolute;
+    right: 0;
+
+
+}
+.end-reunion{
+    color: red;
+    font-size: 10px;
+    text-align: center;
+    padding: 25%;
+    
+}
+.color-green{
+    color: green;
 }
 
