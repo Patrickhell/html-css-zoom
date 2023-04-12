@@ -24,16 +24,18 @@ header{
 
 }
 
-.Speaker-view{
+div ul.Speaker-view{
     width: 110spx;
     height: 20px;
     background-color:#4a4a4a;
-    margin-right: 1px ;
+    margin-right: 5px ;
     border-radius: 3px;
+    font-size: 15px;
    
 }
-.font{
-    font-size: 20px;
+li p{
+    font-size: 15px;
+    padding: 2px;
 }
 
 .icons-minimize{
@@ -65,7 +67,7 @@ header{
    
 }
 .color-white{
-    color: white;
+    color: #ffffff
 }
 
 
@@ -73,7 +75,7 @@ header{
     position: absolute;
     top: 80%;
     left:0;
-font-size: 11px;
+font-size: 8px;
 
 }
 
@@ -131,7 +133,8 @@ div.central-icons{
     color: red;
     font-size: 10px;
     text-align: center;
-    padding: 25%;
+    padding: 20%;
+    margin-top: 8%;
     
 }
 .color-green{
