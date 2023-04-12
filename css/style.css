@@ -5,10 +5,17 @@
 }
 body{
     background-color: black;
+    
 }
+html{
+    scroll-behavior: smooth;
+}
+
+
 header{
     width: 100vw;
     height: 10vh;
+
 }
 
 .flex{
@@ -21,6 +28,7 @@ header{
     display: flex;
     top: 1%;
     right: 0;
+    z-index: 1;
 
 }
 
@@ -47,25 +55,28 @@ li p{
     border-radius: 3px;
 
 }
+main{
+    overflow-y: auto;
+}
 
 .container{
     margin: 0 auto;
     width: 90vw;
-    height: 15vh;    
+    height: 15vh;
+   
 }
 
 .img{
-    width: 15vw;
+    min-width: 13vw;
     height: 15vh;
-  padding-left: 5px;
-  padding-bottom: 0.5rem;
+  border:3px solid black
+  
 }
  div.colona-image{
-  width: calc0(100% / 6);
-  position: relative;
- 
-   
+  width: calc(100% / 7 );
+  position: relative;  
 }
+
 .color-white{
     color: #ffffff
 }
@@ -73,28 +84,26 @@ li p{
 
 .audio{
     position: absolute;
-    top: 80%;
-    left:0;
+    bottom: 5%;
+    left:2%;
 font-size: 8px;
+width: 75px;
+height: 13px;
+padding-top: .2rem;
+background-color: #c9c9c9;
 
 }
 
 footer{
     width: 100vw;
-    height: 10vh;
+    height: 70px;
     background-color: #222222;
     position: relative;
    margin-top: 1rem;
+   justify-content: space-between;
    
 }
 
-.fixed{
-    position: fixed;
-    bottom: o;
-    right: 0;
-    left: 0;
-    z-index: 1;
-}
 .bg-white{
 background-color: white;
 }
@@ -117,16 +126,12 @@ li{
 .font{
     font-size: 13px;
 }
-div.central-icons{
-    padding-left: 15%;
-}
-.right-icons{
-    width: 8vw;
-    height: 10vh;
-    background-color: #4a4a4a;
-    position: absolute;
-    right: 0;
 
+.right-icons{
+    width: 10%;
+    height: 100%;
+    background-color: #4a4a4a;
+    
 
 }
 .end-reunion{
@@ -135,6 +140,7 @@ div.central-icons{
     text-align: center;
     padding: 20%;
     margin-top: 8%;
+    justify-content: flex-end;
     
 }
 .color-green{
